@@ -3,9 +3,9 @@
 public class Main {
     public static void main(String[] args) {
 
-        int ontheac = 23;
-        int dep = 1456;
-        int total = ontheac + dep;
+        int instock = 23;
+        int added = 1456;
+        int total = instock + added;
         int bonuses;
         if (total > 1000) {
             bonuses = total / 100;
@@ -13,7 +13,7 @@ public class Main {
             System.out.println(bonuses);
 
         } else {
-            System.out.println("Сумма пополнения не соответствует условия акции");
+            System.out.println("Сумма пополнения не соответствует условиям акции");
         }
 
 
