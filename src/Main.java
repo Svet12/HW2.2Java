@@ -3,14 +3,15 @@
 public class Main {
     public static void main(String[] args) {
 
-        int instock = 23;
-        int added = 1456;
-        int total = instock + added;
+        int balance = 23;
+        int added = 315;
+        int total = balance + added;
         int bonuses;
         if (total > 1000) {
+
+            System.out.println("Баланс: " + (total));
             bonuses = total / 100;
-            System.out.println("Начислено бонусов");
-            System.out.println(bonuses);
+            System.out.println("Начислено бонусов: " + (bonuses));
 
         } else {
             System.out.println("Сумма пополнения не соответствует условиям акции");
