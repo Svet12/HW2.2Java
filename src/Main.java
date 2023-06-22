@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
 
         int balance = 23;
-        int added = 315;
+        int added = 1452;
         int total = balance + added;
         int bonuses;
         if (total > 1000) {
